@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+  }
+  body{
+    background-color: black;
+    min-height: 100vh;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    min-height: 7vh;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    gap: 3px;
+    font-size: 20px;
+  }
+  span{
+    color: whitesmoke;
+  }
+  .logo img{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 25px;
+    height: 50px;
+  }
+ 
+  .nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 8vh;
+  }
+  .nav-links a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  #particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  main{
+    Left:0;
+    top:0;
+    width:100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 18% 1fr 1fr 1fr 1fr 18%;
+    grid-template-rows: 1fr 0.9fr 0.5fr 0.5fr 1fr;
+    grid-column-gap: 1.5vh;
+    grid-row-gap: 1vh;
+    grid-template-areas: 
+    ". . . . . ."
+    ". hero hero . foto . "
+    ". hero hero . foto   . "
+    ". . . . parrafo .";
+  }
+
+  .hero{
+    grid-area: hero;
+    background-image: url(h1.svg);
+    background-size: cover;
+  }
+  .fotoperfil{
+    grid-area: foto;
+    background-image: url(yo.jpeg);
+    background-size: cover;
+  }
+  footer{
+    background-color: #D3FF31;
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5em;
+  }
+  .footer-links a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  .fecha{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+  }
+  .parrafo{
+    grid-area: parrafo;
+    color: whitesmoke;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    
+  }
+  span{
+    color: #D3FF31;
+  }

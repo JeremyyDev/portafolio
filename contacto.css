@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+  }
+  body{
+    background-color: black;
+    min-height: 100vh;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    min-height: 7vh;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    gap: 3px;
+    font-size: 20px;
+  }
+  span{
+    color: whitesmoke;
+  }
+  .logo img{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 25px;
+    height: 50px;
+  }
+ 
+  .nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 8vh;
+  }
+  .nav-links a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  #particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  main{
+    width: 100%;
+    height: 100vh;
+  }
+  .contacto{
+     width:500px;
+     background-color:black;
+     box-shadow:0020px0#D3FF31;
+     top:50%;
+     left:50%;
+      transform:translate(-50%,-50%);
+     position:absolute;
+  }
+  form{
+    margin:35px;
+}
+.input-field
+{
+    width:400px;
+    height:40px;
+    margin-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid#777; 
+    border-radius: 14px;   
+    outline: none;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn
+{
+    border-radius:20px;
+    color:black;
+    margin-top:18px;
+    padding:10px;
+    background-color:#D3FF31;
+    border: none;
+    cursor: pointer;
+}
+   
+
+  footer{
+    background-color: #D3FF31;
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5em;
+  }
+  .footer-links a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  .fecha{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+  }
